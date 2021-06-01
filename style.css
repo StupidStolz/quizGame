@@ -29,6 +29,8 @@ body {
 }
 
 h2 {
+    padding: 1rem;
+    text-align: center;
     margin: 0;
 }
 
@@ -60,4 +62,9 @@ button{
 
 button:hover {
     background-color: #6b0597;
+}
+
+button:focus {
+    background-color: #790ca8;
+    outline: none;
 }
